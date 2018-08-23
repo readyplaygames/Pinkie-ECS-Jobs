@@ -1,6 +1,6 @@
 # Pinkie ECS Jobs
 
-A serious demonstration of the Unity Jobs and Entity Component System (ECS) using a particular pink pony. 
+A serious demonstration of the Unity Jobs and Entity Component System (ECS) using a particular pink pony. See the demonstration video here: https://youtu.be/a2PzCdiWMuw
 
 Each test was divided up by number of Pinkies and the type of system used:
 
