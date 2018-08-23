@@ -1,4 +1,4 @@
-# Pinkie-ECS-Jobs
+# Pinkie ECS Jobs
 
 A serious demonstration of the Unity Jobs and Entity Component System (ECS) using a particular pink pony. 
 
