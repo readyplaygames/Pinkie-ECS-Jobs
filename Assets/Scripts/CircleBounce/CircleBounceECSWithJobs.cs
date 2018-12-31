@@ -32,7 +32,7 @@ public class CircleBounceECSWithJobs : JobComponentSystem {
 			totalTime = Time.timeSinceLevelLoad,
 			deltaTime = Time.deltaTime,
 		};
-		JobHandle moveHandle = moveJob.Schedule(this, 64, inputDependencies);
+		JobHandle moveHandle = moveJob.Schedule(this, inputDependencies);
 
 		return moveHandle;
 	}

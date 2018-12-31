@@ -25,7 +25,7 @@ public class ECSSpawner : MonoBehaviour {
 		manager.Instantiate(spawnPrefab, entities);
 		
 		for(int i = 0; i < amount; i++){
-			Vector2 pos = Random.insideUnitCircle;
+			Vector2 pos = UnityEngine.Random.insideUnitCircle;
 
 			float offset = (float)i;
 			float y = offset * vars.bounceHeight * vars.bounceSpeed;
