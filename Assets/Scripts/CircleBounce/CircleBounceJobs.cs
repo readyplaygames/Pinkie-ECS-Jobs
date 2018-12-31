@@ -45,7 +45,7 @@ public class CircleBounceJobs : MonoBehaviour {
 		offsetJobHandle.Complete();
 			
 		for(int i = 0; i < amount; i++) {
-			Vector2 pos = Random.insideUnitCircle;
+			Vector2 pos = UnityEngine.Random.insideUnitCircle;
 			float y = offsetArray[i] * vars.bounceHeight * vars.bounceSpeed;
 			Vector3 startingPosition = new Vector3(pos.x, y, pos.y) * vars.placementRadius;
 			GameObject obj = Instantiate<GameObject>(spawnPrefab, startingPosition, Quaternion.identity);

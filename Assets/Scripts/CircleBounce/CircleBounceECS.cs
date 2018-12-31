@@ -3,6 +3,7 @@ using Unity.Transforms;
 using Unity.Mathematics;
 using UnityEngine;
 using Unity.Collections;
+
 public class CircleBounceECS : ComponentSystem {
 
 	// Find everything with Position, Rotation, and MoveSpeed
